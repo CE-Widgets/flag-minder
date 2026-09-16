@@ -1,68 +1,69 @@
-# Browser for LoTW
+# FlagMinder
 
-[English](README.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Português](README.pt.md) · [Italiano](README.it.md) · [Español](README.es.md)
+**Status:** Closed test<br>
+**Platform:** Android<br>
+**Current version:** `2026.09.16-9`
 
-**Status:** 🟢 Production
-**Current version:** `2026.08.21-1`
+Android package: `engineering.champagne.flagminder`
 
-![Browser for LoTW feature graphic showing the Android client and Browse, Search, Sort, and Filter features](docs/feature/en_lotw-manifest2-1024.png)
-
-## Google Play
-
-[Get it on Google Play](https://play.google.com/store/apps/details?id=engineering.champagne.browserforlotw)
+![FlagMinder feature graphic](docs/feature-graphic.png)
 
 ## Overview
 
-Browser for LoTW is an Android application for browsing, searching, sorting, and filtering ARRL Logbook of The World (LoTW) records.
-
-Available now on Google Play.
+FlagMinder is a Federal U.S. flag-status indicator. Its home-screen widget
+shows yesterday, today, and tomorrow so a change in flag position is visible
+at a glance. The app provides the effective time, reason, official source,
+upcoming Federal observances, and optional local notifications.
 
 ## Features
 
-- Download LoTW records directly from ARRL
-- Browse QSOs and QSLs
-- Advanced sorting and filtering
-- Regular-expression filtering
-- Detailed QSO and QSL views
-- Offline browsing and local storage
-- Demo mode
-- Language selection: English, French, German, Italian, Portuguese, and Spanish
+- Resizable home-screen widget with Yesterday / Today / Tomorrow context
+- Full-staff and half-staff timelines, including partial-day transitions
+- Current Federal status with effective time and official-source links
+- Upcoming scheduled Federal flag-status observances
+- Optional local notifications for status changes and advance reminders
+- Cached current status with visible freshness information
+- No account, location permission, or state selection
 
 ## Screenshots
 
 <p>
-  <img src="docs/screenshots/records-list.png" alt="Browser for LoTW records list showing QSO and QSL information" width="180">
-  <img src="docs/screenshots/sort-and-filter.png" alt="Browser for LoTW sort and filter controls" width="180">
-  <img src="docs/screenshots/qso-details.png" alt="Browser for LoTW expanded QSO detail view" width="180">
-  <img src="docs/screenshots/download-records.png" alt="Browser for LoTW screen for fetching and managing downloaded records" width="180">
-  <img src="docs/screenshots/about-and-support.png" alt="Browser for LoTW About screen with support and privacy options" width="180">
+  <img src="docs/screenshots/widget.png" alt="FlagMinder three-day Federal flag-status home-screen widget" width="180">
+  <img src="docs/screenshots/full-staff-details.png" alt="FlagMinder full-staff status screen" width="180">
+  <img src="docs/screenshots/half-staff-details.png" alt="FlagMinder half-staff details with official sources" width="180">
+  <img src="docs/screenshots/schedule.png" alt="FlagMinder Federal schedule screen" width="180">
+  <img src="docs/screenshots/notifications.png" alt="FlagMinder notification settings" width="180">
 </p>
 
 ## Repository Purpose
 
-This public repository is maintained for Browser for LoTW documentation, release notes, and issue tracking. It does not contain the application source code.
+This public repository contains FlagMinder documentation, release notes, store
+graphics, screenshots, and issue-tracking material. It does not contain the
+Android application source code or backend implementation.
 
-## Documentation
-
-Additional documentation is available in the [docs](docs/) directory.
+## Resources
 
 - [Release Notes](docs/release-notes.md)
-- [Product Page](https://champagne.engineering/browser-for-lotw)
+- [Documentation](docs/README.md)
+- [FlagMinder product page](https://champagne.engineering/flagminder)
 - [Privacy Policy](https://champagne.engineering/privacy)
 - [Terms of Service](https://champagne.engineering/tos)
 
 ## Support
 
-Website: https://champagne.engineering
-
+Website: https://champagne.engineering<br>
 Email: support@champagne.engineering
 
-## Copyright and Disclaimer
+## Important Notice
+
+FlagMinder reports Federal U.S. flag status only. It does not report state,
+local, organizational, or property-specific requirements. Status information
+may become stale during a connectivity or source-processing interruption; when
+timing is critical, confirm with the linked official source.
+
+## Copyright
 
 © 2026 Champagne Engineering, LLC. All rights reserved.
 
-Unauthorized copying, modification, or redistribution is prohibited. Official distributions are available only through Champagne Engineering-authorized channels.
-
-Browser for LoTW is an independent application developed under the CE Widgets brand by Champagne Engineering, LLC. It is not affiliated with, endorsed by, or sponsored by the American Radio Relay League (ARRL).
-
-“LoTW” and “Logbook of The World” are trademarks of The American Radio Relay League, Inc., used solely to describe compatibility with the LoTW service.
+FlagMinder is an independent application developed under the CE Widgets brand
+by Champagne Engineering, LLC.
