@@ -1,8 +1,8 @@
 # FlagMinder
 
-**Status:** Closed test<br>
+**Status:** Production<br>
 **Platform:** Android<br>
-**Current version:** `2026.09.16-9`
+**Current version:** `2026.09.18-05`
 
 Android package: `engineering.champagne.flagminder`
 
@@ -10,7 +10,9 @@ Android package: `engineering.champagne.flagminder`
 
 ## Overview
 
-FlagMinder is a Federal U.S. flag-status indicator. Its home-screen widget
+FlagMinder is a Federal U.S. flag-status indicator. It combines scheduled
+Federal observances with Presidential half-staff actions after they are
+received and processed from official Federal sources. Its home-screen widget
 shows yesterday, today, and tomorrow so a change in flag position is visible
 at a glance. The app provides the effective time, reason, official source,
 upcoming Federal observances, and optional local notifications.
@@ -29,10 +31,12 @@ upcoming Federal observances, and optional local notifications.
 
 <p>
   <img src="docs/screenshots/widget.png" alt="FlagMinder three-day Federal flag-status home-screen widget" width="180">
-  <img src="docs/screenshots/full-staff-details.png" alt="FlagMinder full-staff status screen" width="180">
-  <img src="docs/screenshots/half-staff-details.png" alt="FlagMinder half-staff details with official sources" width="180">
+  <img src="docs/screenshots/status-and-sources.png" alt="FlagMinder full-staff status screen and official Federal sources" width="180">
+  <img src="docs/screenshots/sources-and-actions.png" alt="FlagMinder source links and app actions" width="180">
   <img src="docs/screenshots/schedule.png" alt="FlagMinder Federal schedule screen" width="180">
+  <img src="docs/screenshots/scheduled-change.png" alt="FlagMinder next scheduled change and official source" width="180">
   <img src="docs/screenshots/notifications.png" alt="FlagMinder notification settings" width="180">
+  <img src="docs/screenshots/about.png" alt="FlagMinder About screen and Federal sources" width="180">
 </p>
 
 ## Repository Purpose
@@ -45,6 +49,7 @@ Android application source code or backend implementation.
 
 - [Release Notes](docs/release-notes.md)
 - [Documentation](docs/README.md)
+- [Google Play](https://play.google.com/store/apps/details?id=engineering.champagne.flagminder)
 - [FlagMinder product page](https://champagne.engineering/flagminder)
 - [Privacy Policy](https://champagne.engineering/privacy)
 - [Terms of Service](https://champagne.engineering/tos)
