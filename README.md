@@ -1,10 +1,7 @@
 # FlagMinder
 
-**Status:** Production<br>
-**Platform:** Android<br>
+**Status:** 🟢 Production
 **Current version:** `2026.09.18-05`
-
-Android package: `engineering.champagne.flagminder`
 
 ![FlagMinder feature graphic](docs/feature-graphic.png)
 
@@ -23,6 +20,7 @@ upcoming Federal observances, and optional local notifications.
 - Full-staff and half-staff timelines, including partial-day transitions
 - Current Federal status with effective time and official-source links
 - Upcoming scheduled Federal flag-status observances
+- Notifications for received and processed unscheduled Presidential half-staff actions
 - Optional local notifications for status changes and advance reminders
 - Cached current status with visible freshness information
 - No account, location permission, or state selection
